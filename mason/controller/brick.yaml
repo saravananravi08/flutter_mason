@@ -26,3 +26,4 @@ vars:
     description: Getx controllername
     default: controller
     prompt: controllername?
+ 

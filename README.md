@@ -14,4 +14,4 @@ mason make controller --controllername {controllername} -o ../ --on-conflict app
 
 # to create a getxbindings file
 
-mason make bindings --bindingname {bindingname} -o ../ --on-conflict append
+mason make binding --bindingname {bindingname} -o ../ --on-conflict append

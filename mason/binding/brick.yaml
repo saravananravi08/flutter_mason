@@ -23,6 +23,6 @@ environment:
 vars:
   bindingname:
     type: string
-    description: Your bindingname
+    description: bindingname
     default: Dash
     prompt: bindingname?

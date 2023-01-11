@@ -21,8 +21,8 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  bindingname:
     type: string
-    description: Your name
+    description: Your bindingname
     default: Dash
-    prompt: What is your name?
+    prompt: bindingname?

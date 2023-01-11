@@ -12,9 +12,9 @@ class {{controllername.pascalCase()}}Controller extends GetxController{
   Future getDataFromGrapql() async {
     try {
       await EndpointService.to
-          .grahqlServiceAdmin('pass query string here')
+          .grahqlService('pass query string here',{'pass variable'})
           .then((value) {
-        List<dynamic> data = value['enum_symptoms'];
+        List<dynamic> data = value['value'];
         // exampleList(data
         //     .map(
         //       (item) => ExampleModel.fromJson(item),
